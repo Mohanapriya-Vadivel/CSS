@@ -1,0 +1,42 @@
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f8ff;
+}
+
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #0077b6;
+}
+
+/* Logo styling */
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Navigation links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s, border-radius 0.3s;
+}
+
+/* Hover effect */
+.nav-links li a:hover {
+    background-color: #023e8a;
+    border-radius: 5px;
+}
